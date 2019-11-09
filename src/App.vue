@@ -1,32 +1,80 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+
+    <v-app>
+        <div>
+            <v-toolbar dark
+                       prominent
+                       src="toolbar-image.png"
+                       max-height="300"
+            >
+<!--                <v-app-bar-nav-icon></v-app-bar-nav-icon>-->
+
+                <v-toolbar-title class="site-title">Image-convert.online</v-toolbar-title>
+
+                <v-spacer></v-spacer>
+
+
+                <div>
+                    <router-link to="/" class="language">English</router-link>
+                    <span>|</span>
+                    <router-link to="/ru" class="language">Russian</router-link>
+                </div>
+
+            </v-toolbar>
+        </div>
+
+        <router-view/>
+    </v-app>
 </template>
 
+<script>
+
+    export default {
+        name: 'App',
+
+        components: {},
+
+        data: () => ({
+            //
+        }),
+    };
+</script>
+
+
 <style lang="less">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+    .site-title {
+        text-transform: uppercase;
+        font-style: italic;
+        font-weight: bold;
     }
-  }
-}
+
+    .language {
+        color: #8f8f8f !important;
+        margin: 0 15px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .router-link-exact-active {
+        color: white !important;
+    }
+
+    .text--primary {
+        color: #4A148C !important;
+    }
+
+    .text--white {
+        color: #fff !important;
+    }
+
+    .convertSettings {
+        color: #fff !important;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .mt-1 {
+        margin-top: 15px !important;
+    }
 </style>
