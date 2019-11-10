@@ -7,7 +7,7 @@
                        src="toolbar-image.png"
                        max-height="300"
             >
-<!--                <v-app-bar-nav-icon></v-app-bar-nav-icon>-->
+                <!--                <v-app-bar-nav-icon></v-app-bar-nav-icon>-->
 
                 <v-toolbar-title class="site-title">Image-convert.online</v-toolbar-title>
 
@@ -23,7 +23,7 @@
             </v-toolbar>
         </div>
 
-        <router-view/>
+        <router-view />
     </v-app>
 </template>
 

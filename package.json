@@ -42,11 +42,21 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/strongly-recommended",
+      "plugin:vue/recommended",
       "eslint:recommended"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-console": "off",
+      "arrow-body-style": "off",
+      "brace-style": "off",
+      "linebreak-style": "off",
+      "func-style": "off",
+      "multiline-comment-style": "off",
+      "comma-style": "off",
+      "semi-style": "off"
     }
   },
   "postcss": {
