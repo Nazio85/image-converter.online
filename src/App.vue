@@ -24,16 +24,17 @@
         </div>
 
         <router-view />
+        <footer-application></footer-application>
+
     </v-app>
 </template>
 
 <script>
 
+    import FooterApplication from "./components/Footer-Application";
     export default {
         name: 'App',
-
-        components: {},
-
+        components: {FooterApplication},
         data: () => ({
             //
         }),
@@ -60,11 +61,11 @@
         color: white !important;
     }
 
-    .text--primary {
+    .text-primary {
         color: #4A148C !important;
     }
 
-    .text--white {
+    .text-white {
         color: #fff !important;
     }
 
@@ -76,5 +77,49 @@
 
     .mt-1 {
         margin-top: 15px !important;
+    }
+
+    .previewText{
+        font-size: 20px;
+    }
+    .block{
+        width: 100%
+    }
+    .text-italic{
+        font-style: italic;
+    }
+    .text-bold{
+        font-weight: bold;
+    }
+    h1{
+        color: #4A148C !important;
+        font-size: 38px;
+        margin: 25px 0;
+    }
+    h6{
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #4a148c;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 15px;
+    }
+
+    .supportText{
+        font-style: italic;
+        text-align: center;
+        color: #6a1b99;
+    }
+    .previewText{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .previewSupportFormat{
+        font-style: italic;
+        margin-top: 50px;
+        color: #4a148c;
+        font-weight: bold;
+        text-transform: uppercase;
     }
 </style>

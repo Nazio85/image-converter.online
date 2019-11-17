@@ -14,7 +14,7 @@ const routes = [
   {
     path: '/ru',
     name: 'ru',
-    component: Russian
+    component: Home
   }
 ];
 

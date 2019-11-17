@@ -2,7 +2,7 @@ module.exports = {
   "pluginOptions": {
     "prerenderSpa": {
       "renderRoutes": [
-        "/"
+        "/", '/ru'
       ],
       "useRenderEvent": true,
       "headless": true,

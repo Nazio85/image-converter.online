@@ -1,4 +1,17 @@
 {
   "message": "hello i18n !!",
-  "convertSettings": "Convert settings"
+  "convertSettings": "Convert settings",
+
+  "previewHeader": "Simple, unlimited batch image converter",
+  "previewText": "The application allows you to batch process images easily and quickly (convert, resize and compress images). No longer need to process images one at a time or five at a time. Working with photos became easy and fast!",
+  "previewSupportFormat":"We support the following formats JPEG, PNG, WEBP, BMP",
+
+  "previewHeaderRu": "Простой конвертер изображений с пакетной обработкой без ограничений",
+  "previewTextRu": "Приложение позволяет легко и быстро пакетно обрабатывать изображения (конвертировать, изменять размер и сжимать изображения). Больше не нужно обрабатывать фотографии по одной или по пять за раз. Работать с фотографиями стало легко и быстро!",
+  "previewSupportFormatRu": "Мы поддерживаем следующие форматы JPEG, PNG, WEBP, BMP",
+
+  "footerText": "Our goal was to create a simple and practical project to convert images and photos. There are situations when you want to process twenty or thirty photos at a time (it happens that a hundred) in a certain format, with a certain size and quality. We tried to choose the most popular formats (JPG, PNG, BMP) and progressive(WEBP). We sincerely hope you enjoy the service and image processing, it will be a simple fast operation for You.",
+  "footerTextRu": "Наша цель была создать простой и практичный проект для преобразования изображений и фотографий. Парой требуется обработать двадцать или тридцать фотографий за раз (бывает что и сотню) в определенный формат, с определенными размером и качеством. Мы постарались  выбрать самые популярные форматы (JPG, PNG, BMP) и прогрессивный(WEBP). Искренне надеемся, что Вам понравится сервис и обработка изображений пакетом для Вас станет простой быстрой операцией."
+
+
 }
